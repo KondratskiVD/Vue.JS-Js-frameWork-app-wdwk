@@ -1,0 +1,34 @@
+/* ============
+ * Mutation types for the account module
+ * ============
+ *
+ * The mutation types that are available
+ * on the account module.
+ */
+
+export const SETTINGS = 'SETTINGS';
+
+export const SET_RELEASES_STATUSES = 'SET_RELEASES_STATUSES';
+
+export const SET_STICKY_HEADER_MUTATION = 'SET_STICKY_HEADER_MUTATION';
+
+export const SET_IS_CONTENT_LOADER = 'SET_IS_CONTENT_LOADER';
+
+export const SET_STICKY_ASIDE_MUTATION = 'SET_STICKY_ASIDE_MUTATION';
+
+export const SET_FOLDE_ASIDE_MUTATION = 'SET_FOLDE_ASIDE_MUTATION';
+
+export const SET_HIDE_ASIDE_MUTATION = 'SET_HIDE_ASIDE_MUTATION';
+
+export const SET_COLOR_THEME = 'SET_COLOR_THEME';
+
+export default {
+  SETTINGS,
+  SET_RELEASES_STATUSES,
+  SET_IS_CONTENT_LOADER,
+  SET_STICKY_HEADER_MUTATION,
+  SET_STICKY_ASIDE_MUTATION,
+  SET_FOLDE_ASIDE_MUTATION,
+  SET_HIDE_ASIDE_MUTATION,
+  SET_COLOR_THEME,
+};
